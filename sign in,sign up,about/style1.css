@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    min-height: 100vh;
+    background: cornsilk;
+    display:flex;
+    font-family: sans-serif;
+}
+.all{
+    margin: auto;
+    width: 500px;
+    max-width: 90%;
+}
+.all form{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 4px;
+}
+.all form h1{
+    text-align: center;
+    margin-bottom: 24px;
+    color: black;
+}
+.all form .form-control{
+    width: 100%;
+    height: 25px;
+    border-radius: 4px;
+    border:1px solid black;
+    margin-top:10px ;
+    margin-bottom: 18px;
+   
+}   
+.all form .btn{
+    margin-left: 50%;
+    transform:translate(-50%);
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: teal;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.all  from .btn:hove{
+    opacity: .7s;
+}
