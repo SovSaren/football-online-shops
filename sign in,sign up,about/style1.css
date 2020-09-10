@@ -4,51 +4,132 @@
     box-sizing: border-box;
 
 }
-body{
-    min-height: 100vh;
-    background: cornsilk;
-    display:flex;
-    font-family: sans-serif;
+
+
+.name{
+        margin: auto;
+        margin-top: 50px;
+        width: 300px;
+        height:400px;
+        border: 2px solid black;
+        border-radius: 20px;
+        background-color:white;
+        
 }
-.all{
-    margin: auto;
-    width: 500px;
-    max-width: 90%;
+.name .she{
+        line-height: 15px;
+        margin-left: 20px;
+        margin-top: 10px;
+          }
+.low{
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+    height: 90px;
+    width: 80px;
+    
+    
 }
-.all form{
+.low img{
+    border: 1px solid #000;
+    
+}
+.fat{
+    margin: 0;
     width: 100%;
-    height: 100%;
-    padding: 20px;
-    background: white;
-    border-radius: 4px;
-}
-.all form h1{
-    text-align: center;
-    margin-bottom: 24px;
-    color: black;
-}
-.all form .form-control{
-    width: 100%;
-    height: 25px;
-    border-radius: 4px;
-    border:1px solid black;
-    margin-top:10px ;
-    margin-bottom: 18px;
+    height: 15px;
+    background-image: url(pictures/symbol.jpg);
    
-}   
-.all form .btn{
-    margin-left: 50%;
-    transform:translate(-50%);
-    width: 120px;
-    height: 30px;
-    border: none;
-    outline: none;
-    background: teal;
-    cursor: pointer;
-    font-size: 16px;
-    text-transform: uppercase;
-    border-radius: 4px;
+    background-repeat: no-repeat;
+
 }
-.all  from .btn:hove{
-    opacity: .7s;
+.tall{
+    margin-top: 0%;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: BankFuturistic;
+    color: red;
+    background-color: royalblue;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 19px;
+}
+.she b{
+    font-size: 14px;
+}
+.she {
+    font-family: BankFuturistic;
+    font-size: 20px;
+}
+form{
+    width: 400px;
+    height: 600px;
+    margin:auto;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+
+.input{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container {
+  padding: 16px;
+  margin-top: 40px;
+  background-color: cadetblue;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
 }

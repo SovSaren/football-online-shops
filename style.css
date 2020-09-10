@@ -11,20 +11,23 @@
     left: 0;
     width: 250px;
     height: 100%;
-    background: cadetblue;
+    background: skyblue;
+
 }
 .sidebar header{
     font-size: 22px;
     color: saddlebrown;
     text-align: center;
     line-height: 70px;
-    background-color: turquoise;
+    background-color:skyblue;
+    color: blueviolet;
+
     
 }
 .sidebar ul a{
     line-height: 65px;
     font-size: 20px;
-    color: black;
+    color: blue;
     padding-left:40px ;
     box-sizing: border-box;
     border-top: 1px solid black;
@@ -50,6 +53,7 @@
         text-align: center;
         line-height: 70px;
         width: 100%;
+        background-color: silver;
     }
 
 .item{
@@ -70,17 +74,44 @@
     font-size: 28px;
 }
 .grid{
-    width: 1400px;
+    width: 100%;
     height: auto;
     display: inline-block;
-    background-color:green;
     margin-left: 250px;
     position: absolute;
 }
+
+.sport h2{
+        font-size: 40px;
+        color: #4e1247;
+        text-align: center;
+        margin-top: 20px;
+}
+.smart{
+ 
+    height: 100%;
+    width: 100%;
+    margin-left:250px;
+    position: fixed;
+    background-color: seagreen;
+    
+  
+    
+    }
+.smart h3{
+    margin:auto;
+    font-size: 30px;
+    color:black;
+    margin-top: 300px;
+    margin-left: 200px;  
+}
 .tell{
-    height: 100vh;
+    height: auto;
+    margin-right: 300px;
+    margin-top: -400px;
     background-size: cover ;
     background-position: center;
+
 }
 .tell ul{
     float: right;
@@ -89,7 +120,7 @@
 }
 .tell li{
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 10px;
     
  
 }
@@ -103,29 +134,6 @@
  .tell ul li:hover a {
     background-color: cornsilk;
     color: rgb(88, 33, 33);
-}
-.sport h2{
-        font-size: 40px;
-        color: #4e1247;
-        text-align: center;
-        margin-top: 20px;
-}
-.smart{
- 
-    height: 200px;
-    width: 1200px;
-    margin-left: 250px;
-    margin-top:50px;
-    position:absolute;
-    }
-.smart h3{
-  
-    margin-top: 30px;
-    padding: 200px;
-    margin:auto;
-    font-size: 30px;
-    color:black
-    
 }
 
 
