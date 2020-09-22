@@ -169,14 +169,74 @@ button:hover {
   width: 100%;
   height: 60px;
   margin: 0;
-  background-color: red;
+  background-color:black;
   
 
 }
 .foot h1{
       font-size: 33px;
-      color:white;
+      color:red;
       margin-left: 10px;
       font-family:'Monoton', cursive;
     
+}
+.allcontact{
+  
+  padding: 60px 0px;
+}
+.allcontact{
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px 20px;
+  overflow: hidden;
+}
+.headercontact{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.border{
+  width: 160px;
+  height: 2px;
+  background-color: crimson;
+  margin: 30px auto;
+}
+.listcontact{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+
+}
+.contactbox{
+  
+  margin: 8px;
+  padding: 30px;
+  cursor: pointer;
+  text-align: center;
+
+}
+.contact-icon{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 3px solid green;
+  transform: rotate(45deg);
+  margin-bottom: 20px;
+  background-color: burlywood;
+}
+.contact-icon i{
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: black;
+
+}
+.contact-name-account{
+  color: red;
+  font-size: 15px;
 }

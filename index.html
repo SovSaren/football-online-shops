@@ -3,10 +3,67 @@
 <head>
     <title>football online shop</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Just+Another+Hand&family=Monoton&family=Nunito+Sans:wght@200&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url(Pictures/backgroun1.jpg);
+            background-size: cover;}
+
+    .tell{
+    margin-top: -30px;
+    
+
+}
+        .yousearch{
+    width: 800px;
+    height: 60px;
+    margin-left: 140px;
+    margin-top: 30px;
+    
+}
+
+.input{
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 30px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+
+}
+.button{
+    
+    width: 50px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: -50px;
+    font-size: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: green;
+}
+button:hover {
+    opacity:1;
+    color: black;
+  }
+    </style>
     
 </head>
 <body>
+    <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars" id="btn"></i>
+            <i class="fa fa-times" id="cancel"></i>
+        </label>
+    
     <div class="sidebar">
+        
         <header><b>Menu</b></header>
         <ul>
             <li><a href="sportswear football.html">Sportwear </a></li>
@@ -18,25 +75,33 @@
         </ul>
     </div>
 
-  
+  <section>
     <div class="foot">
-        <h1 >football online shop</h1> 
-         <hr>
-    </div>
-       
-          <div class="smart">
-              <h3><b style=" font-size: 55px;">Welcome to football online shop.</b><br>
-                 <p style="margin-left: 90px;"> We sell all kinds of sports shoes, socks ,tracksuit</p>
-                  <p style="margin-left: 170px;"> sport socks and sportwear . </p>
-              </h3>
+        <h1>football       online  shop</h1> 
+          </div>
+        <div class="tell">
+            <ul>
+              <li><a href="sign in.html">sign in</a></li>
+              <li><a href="sign up.html">sign up</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
 
-              <div class="tell">
-                <ul>
-                  <li><a href="sign in,sign up,about/sign in.html">sign in</a></li>
-                  <li><a href="sign in,sign up,about/sign up.html">sign up</a></li>
-                  <li><a href="sign in,sign up,about/about.html">About</a></li>
-                </ul>
-              </div>
-         </div>
+   
+<div class="smart">
+    <h3><b style=" font-size: 40px; margin-left: 30px;">Welcome to football online shop.</b><br>
+        <p style="margin-left: 10px;"> We sell all kinds of sports equipment such as sportswear, </p>
+        <p style="margin-left: 70px;">shoes, socks ,tracksuit sport​ and socks . </p>
+    </h3> 
+</div>  
+<div class="yousearch">
+   <form>
+    <input type="text" placeholder="Search.." name="search" class="input">
+    <button type="submit" class="button"><i class="fa fa-search"></i></button>
+  </form>
+</div>
+</section>
+
 </body>
 </html>
