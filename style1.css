@@ -131,11 +131,6 @@ button:hover {
 }
 
 
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-     width: 100%;
-  }
-}
 .tell{
   height: auto;
   margin-top: -30px;
@@ -223,16 +218,13 @@ button:hover {
   width: 60px;
   height: 60px;
   border: 3px solid green;
-  transform: rotate(45deg);
   margin-bottom: 20px;
+  border-radius: 20px;
   background-color: burlywood;
 }
 .contact-icon i{
   line-height: 70px;
-  transform: rotate(-45deg);
   font-size: 30px;
-  padding-left: 20px;
-  padding-bottom: 20px;
   color: black;
 
 }
